@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kojiro Mosman</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/typography.css" />
+  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+  <link rel="icon" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/281bc9fba5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class = "header">
+    <nav>
+      <a href = "index.html"> <img id = "logo" src = "assets/kojiro_logo.png"></a>
+      <div class = "nav-links" id = "navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li> <a href = "">order pickup</a></li>
+          <li> <a href = "https://squareup.com/appointments/book/cof5qd4ecq1lrq/LRC1YX968M6Y1/start">make a booking</a></li>
+          <li> <a href = "">contact us</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="herobox">
+      <div class="textbox">
+        <h1>Welcome to Kojiro</h1>
+        <p>
+          Proudly serving the Mosman community for over 10 years, we bring the authentic taste of Japan to your neighborhood with locally sourced ingredients and a passion for culinary excellence
+        </p>
+        <a class = "hero_btn1" href="https://squareup.com/appointments/book/cof5qd4ecq1lrq/LRC1YX968M6Y1/start" rel="nofollow">Book a Table</a>
+        <a class = "hero_btn2" href="https://kojiro-japanese-restaurant.square.site/">Order Pickup</a>
+      </div>
+    </div>
+  </section>
+
+  <section class = "openhours">
+    <h1>Opening Hours</h1>
+    <p>Mon 5PM - 10PM</p>
+    <p>Tue CLOSED </p>
+    <p>Wed 5PM - 10PM</p>
+    <p>Thu 5PM - 10PM</p>
+    <p>Fri 12PM - 2:30PM, 5PM - 10PM</p>
+    <p>Sat 12PM - 2:30PM, 5PM - 10PM</p>
+    <p>Sun 12PM - 2:30PM, 5PM - 9PM</p>
+
+    
+  </section>
+
+  <section class = "contact" id = "contact"> 
+    <h2> Contact Us!</h2>
+    <h4> Fill the in the form below to let us know of anything! </h4>
+    
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+      <!-- Replace with your Access Key -->
+      <input type="hidden" name="access_key" value="74de8f4c-6c7d-4ede-81e7-e05cd840efd9">
+  
+      <!-- Form Inputs. Each input must have a name="" attribute -->
+      <input type="text" name="name" placeholder ="Your Name" class="contact-inputs" required>
+      <input type="email" name="email" placeholder ="Your Email" class="contact-inputs" required>
+      <textarea name="message" placeholder="Your Message" class ="contact-inputs"></textarea>
+  
+      <!-- Honeypot Spam Protection -->
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+  
+      <!-- Custom Confirmation / Success Page -->
+      <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+  
+      <button type="submit">Submit Form</button>
+  
+  </form>
+    
+  </section>
+
+  <footer>
+      <div class="footer-container">
+
+        <a href = "index.html"> <img id = "logo" src = "assets/kojiro_logo.png"></a>
+
+        <ul class="footer-links">
+          <h4>Homepage</h4>
+          <li><a href="">Top</a></li>
+          <li><a href="">Online Booking</a></li>
+          <li><a href="">Online Order</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        
+        <ul class = "store_contact">
+          <h4>Contact</h4>
+          <li>+(61)483370688</li>
+          <li>kojiromosman@gmail.com</li>
+        </ul>
+
+        <ul class = "location">
+          <h4>Address</h4>
+          <li>938 Military Rd, Mosman NSW 2088</li>
+        </ul>
+
+        <div class="social-media">
+          <a href="https://www.facebook.com/yourcompany" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/yourcompany" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <p>&copy; 2024 K's Dining Pty Ltd. All rights reserved.</p>
+
+  </footer>
+  <!---------------------JavaScript for Toggle Menue-------------------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() { 
+        navLinks.style.display = "block";
+    }
+
+    function hideMenu() { 
+        navLinks.style.display = "none";
+    }
+
+</script>
+</body>
+
+</html>

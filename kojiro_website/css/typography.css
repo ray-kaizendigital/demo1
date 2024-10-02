@@ -1,0 +1,82 @@
+h1{ 
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;      
+}
+
+h2{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;    
+    font-size: 4.5vw;  
+    color: #fff;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;  
+    color: #9b9b9b;
+    line-height: 1.5;
+}
+
+label { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 1vw;  
+    color: #fff;    
+}
+html{
+    font-size: 16px;
+}
+
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2vw;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3vw;
+    color: #FFFFFF;
+}
+
+.textbox > h1 { 
+    width: 100%;
+    min-width:115px;
+    font-size: 8.5vw;
+    text-align: center;
+}
+
+.textbox > p { 
+    width: 100%;
+    font-size: 1.65vw;
+    text-align: center;
+}
+
+form { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+}
+
+li { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2vw;
+    color: #FFFFFF;
+}
+
